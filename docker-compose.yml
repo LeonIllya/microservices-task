@@ -20,7 +20,7 @@ services:
 
   auth-api:
     build:
-      context: ./AuthAapi
+      context: ./AuthApi
       dockerfile: Dockerfile
     container_name: auth-api
     restart: unless-stopped
